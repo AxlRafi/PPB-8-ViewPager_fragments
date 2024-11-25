@@ -12,7 +12,7 @@ class MyFriendAdapter(private val friends: List<MyFriend>) :
 
     // ViewHolder class to hold references to the views
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val profileImage: ImageView = itemView.findViewById(R.id.ivProfile) // Reference ImageView
+        val profileImage: ImageView = itemView.findViewById(R.id.ivProfile)// Reference ImageView
         val name: TextView = itemView.findViewById(R.id.tvName)
         val phone: TextView = itemView.findViewById(R.id.tvPhone)
         val email: TextView = itemView.findViewById(R.id.tvEmail)
